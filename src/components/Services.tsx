@@ -46,7 +46,12 @@ const Services = () => {
                   <div className="text-muted-foreground leading-relaxed mb-8 whitespace-pre-line">
                     {service.description}
                   </div>
-                  <Button variant="outline" size="lg" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-smooth">
+                  <Button 
+                    variant="outline" 
+                    size="lg" 
+                    onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+                    className="border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-smooth"
+                  >
                     Разбери Повече
                   </Button>
                 </div>

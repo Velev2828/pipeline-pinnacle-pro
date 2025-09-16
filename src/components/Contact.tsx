@@ -6,7 +6,7 @@ import { Label } from "@/components/ui/label";
 
 const Contact = () => {
   return (
-    <section className="py-24 bg-gradient-section">
+    <section id="contact" className="py-24 bg-gradient-section">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-5xl font-bold mb-6 text-foreground">Свържете се с нас</h2>

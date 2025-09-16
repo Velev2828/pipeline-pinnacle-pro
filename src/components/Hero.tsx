@@ -20,15 +20,15 @@ const Hero = () => {
 
       {/* Content */}
       <div className="relative z-10 max-w-7xl mx-auto px-6 text-center text-white">
-        <h1 className="text-6xl md:text-7xl font-bold mb-8 leading-tight">
-          Свържете се с нас
+        <h1 className="text-4xl md:text-6xl font-bold mb-12 max-w-5xl mx-auto leading-tight">
+          Изграждане на тръбопроводи системи за високо и ниско налягане, заваряване и доставка на резервни части и оборудване
         </h1>
         
-        <p className="text-xl md:text-2xl mb-12 max-w-4xl mx-auto leading-relaxed text-white/90">
-          Изграждане на тръбопроводи системи за високо и ниско налягане, заваряване и доставка на резервни части и оборудване
-        </p>
-        
-        <Button size="lg" className="bg-primary hover:bg-primary-glow text-white px-12 py-6 text-lg font-semibold shadow-hero transition-smooth hover:shadow-glow">
+        <Button 
+          size="lg" 
+          onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+          className="bg-primary hover:bg-primary-glow text-white px-12 py-6 text-lg font-semibold shadow-hero transition-smooth hover:shadow-glow"
+        >
           Свържете се с нас
         </Button>
       </div>
